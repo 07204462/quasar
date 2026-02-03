@@ -28,6 +28,38 @@
         <q-item-label
           header
         >
+          Navigation
+        </q-item-label>
+
+        <q-item
+          clickable
+          to="/"
+        >
+          <q-item-section avatar>
+            <q-icon name="home" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Home</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item
+          clickable
+          to="/tasks"
+        >
+          <q-item-section avatar>
+            <q-icon name="task" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Tasks</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-separator class="q-my-md" />
+
+        <q-item-label
+          header
+        >
           Essential Links
         </q-item-label>
 
