@@ -1,0 +1,16 @@
+{
+  "name": "mobile-app/backend",
+  "description": "Backend API for mobile app",
+  "type": "project",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": ""
+    }
+  },
+  "config": {
+    "platform-check": false
+  }
+}

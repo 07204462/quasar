@@ -9,7 +9,7 @@ import axios from 'axios'
 // for each client)
 const api = axios.create({
   baseURL: 'http://10.0.2.2:8000/api', // Android emulator
-  // baseURL: 'http://localhost:8000/api' // Web
+  // baseURL: 'http://localhost:8000/api', // Web
 })
 
 export default defineBoot(({ app }) => {
